@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AC2150"
+    android:background="#87193E"
     tools:context=".PictureFourActivity">
 
     <Button
@@ -37,12 +37,12 @@
         android:layout_marginBottom="32dp"
         android:text="When you hear your voice on a recording, you're only hearing sounds transmitted via air conduction. The reason you hear it different is because,vibrating sound waves hitting your ear drum, is not the way other people hear your voice. The second way is through vibrations inside your skull set off by your vocal chords."
         android:textColor="#FFFFFF"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/btnPage4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        android:textSize="20dp"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageView
         android:id="@+id/imageView4"

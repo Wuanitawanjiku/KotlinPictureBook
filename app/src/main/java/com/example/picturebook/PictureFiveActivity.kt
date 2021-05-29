@@ -10,7 +10,6 @@ class PictureFiveActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_picture_five)
 
-
         var pictureFive = findViewById<Button>(R.id.btnPage5)
         pictureFive.setOnClickListener {
             var intent = Intent(baseContext, PictureFourActivity::class.java)

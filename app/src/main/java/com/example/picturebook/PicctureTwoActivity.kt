@@ -10,15 +10,15 @@ class PicctureTwoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_piccture_two)
 
-        val pictureTwo = findViewById<Button>(R.id.btnPage2)
-        pictureTwo.setOnClickListener {
-            val intent = Intent(baseContext, PictureThreeActivity::class.java)
+        var pictureFour = findViewById<Button>(R.id.btnPage2)
+        pictureFour.setOnClickListener {
+            var intent = Intent(baseContext, PictureThreeActivity::class.java)
             startActivity(intent)
         }
 
-        val backbutton1 = findViewById<Button>(R.id.btnBack1)
+        var backbutton1 = findViewById<Button>(R.id.btnBack1)
         backbutton1.setOnClickListener {
-            val intent = Intent(baseContext, PictureOneActivity::class.java)
+            var intent = Intent(baseContext, PictureOneActivity::class.java)
             startActivity(intent)
         }
     }

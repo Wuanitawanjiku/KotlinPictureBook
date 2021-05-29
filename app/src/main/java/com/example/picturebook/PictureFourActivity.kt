@@ -14,11 +14,12 @@ class PictureFourActivity : AppCompatActivity() {
         pictureFour.setOnClickListener {
             var intent = Intent(baseContext, PictureFiveActivity::class.java)
             startActivity(intent)
+        }
 
         var backButton3 = findViewById<Button>(R.id.btnBack3)
         backButton3.setOnClickListener {
             var intent = Intent(baseContext, PictureThreeActivity::class.java)
-        }
+            startActivity(intent)
         }
     }
 }
