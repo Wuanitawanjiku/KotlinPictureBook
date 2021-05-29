@@ -10,9 +10,9 @@ class PictureFourActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_picture_four)
 
-        var pictureFour = findViewById<Button>(R.id.btnPage4)
+        var pictureFour = findViewById<Button>(R.id.btn)
         pictureFour.setOnClickListener {
-            var intent = Intent(baseContext, PictureFiveActivity::class.java)
+            var intent = Intent(baseContext, MainActivity::class.java)
             startActivity(intent)
         }
 
